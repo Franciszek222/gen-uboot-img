@@ -7,7 +7,7 @@ You will need to collect a selection of projects to build the bootchain.
 
 ```
 git clone https://github.com/msm8916-mainline/lk2nd.git
-#msm8916 Linux kernel; git clone https://github.com/msm8916-mainline/linux.git
+git clone https://github.com/msm8916-mainline/linux.git
 git clone https://github.com/Franciszek222/u-boot.git
 git clone https://github.com/msm8916-mainline/qhypstub.git
 ```
