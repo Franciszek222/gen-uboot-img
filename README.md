@@ -5,10 +5,12 @@ All devices supported by lk2nd and msm8916-mainline should be supported. You mig
 ## Download required submodules
 You will need to collect a selection of projects to build the bootchain.
 
-- git clone https://github.com/msm8916-mainline/lk2nd.git
-- #msm8916 Linux kernel; git clone https://github.com/msm8916-mainline/linux.git
-- git clone https://github.com/Franciszek222/u-boot.git
-- git clone https://github.com/msm8916-mainline/qhypstub.git
+```
+git clone https://github.com/msm8916-mainline/lk2nd.git
+#msm8916 Linux kernel; git clone https://github.com/msm8916-mainline/linux.git
+git clone https://github.com/Franciszek222/u-boot.git
+git clone https://github.com/msm8916-mainline/qhypstub.git
+```
 
 Build system expects those repositories to exist in the parent dir of the project.
 See Makefile on how to override the path.
